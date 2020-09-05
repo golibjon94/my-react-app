@@ -14,6 +14,7 @@ import Home from '../Pages/Home';
 import About from '../Pages/About';
 import Contacts from '../Pages/Contacts';
 import Blog from '../Pages/Blog';
+import Mysitebar from "../Mysitebar";
 
 export default class Header extends Component {
   render() {
@@ -38,6 +39,7 @@ export default class Header extends Component {
                 <Nav.Link href="/about">About us</Nav.Link>
                 <Nav.Link href="/contacts">Contacts</Nav.Link>
                 <Nav.Link href="/blog">Blog</Nav.Link>
+                <Nav.Link href="/mysitebar">Mysitebar</Nav.Link>
               </Nav>
               <Form inline>
                 <FormControl
@@ -56,6 +58,7 @@ export default class Header extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/contacts" component={Contacts} />
           <Route exact path="/blog" component={Blog} />
+          <Route exact path="/mysitebar" component={Mysitebar} />
           
         </Switch>
         </Router>

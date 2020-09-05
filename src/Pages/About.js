@@ -32,47 +32,48 @@ export default class About extends Component {
             <Col sm={9}>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                  <img src="https://images.ctfassets.net/ooa29xqb8tix/2IwSz500ZOmoyWWCoc28as/16c9a0ca05d3b125c9df82e0d6522718/DraggedImage.jpeg" />
+                  <img src="https://techspawn.com/wp-content/uploads/2014/12/techspawn-designer.jpg"/>
                   <p>
-                    askhg ajhslkjhl a jashlak jaslkjh ah ajh kjahjh aj hkla
-                    dshflkhsak fsdlkjashdkjh kjs j ahskjh dsfjh lkj ksslkjh se
-                    sd sdusdoiu ysui soiu ysdoiuy dsiuidsuy iosdp sd
+                  Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Molestias voluptates doloribus, laborum repellat ad quod veniam,
+                   in illum ex odio minus, repudiandae! Cupiditate veniam vitae illo sunt!
+                    Mollitia, est, eum.
                   </p>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="second">
-                  <img src="https://moriohcdn.b-cdn.net/1a984cc004.png" />
+                  <img src="https://static2.clutch.co/s3fs-public/software-development-team-1.jpg" />
                   <p>
-                    askhg ajhslkjhl a jashlak jaslkjh ah ajh kjahjh aj hkla
-                    dshflkhsak fsdlkjashdkjh kjs j ahskjh dsfjh lkj ksslkjh se
-                    sd sdusdoiu ysui soiu ysdoiuy dsiuidsuy iosdp sd
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quia, 
+                  amet reiciendis velit nobis corporis, nesciunt iste quaerat asperiores voluptatem, 
+                  aliquam. 
+                   
                   </p>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="third">
-                 <img src="https://moriohcdn.b-cdn.net/1a984cc004.png"/>
+                 <img src="https://cdn.seeklearning.com.au/media/images/career-guide/module/web-developer-module.jpg"/>
                   <p>
-                    askhg ajhslkjhl a jashlak jaslkjh ah ajh kjahjh aj hkla
-                    dshflkhsak fsdlkjashdkjh kjs j ahskjh dsfjh lkj ksslkjh se
-                    sd sdusdoiu ysui soiu ysdoiuy dsiuidsuy iosdp sd
+                  Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Molestias voluptates doloribus, laborum repellat ad quod veniam,
+                   in illum ex odio minus, repudiandae! Cupiditate veniam vitae illo sunt!
+                    Mollitia, est, eum.
                   </p>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="fourth">
-                  <img src="https://static-2.gumroad.com/res/gumroad/2845048238670/asset_previews/7df0d3cc982a22c4a3d1a9002f9c3645/retina/01.png" />
-                  <p>
-                    askhg ajhslkjhl a jashlak jaslkjh ah ajh kjahjh aj hkla
-                    dshflkhsak fsdlkjashdkjh kjs j ahskjh dsfjh lkj ksslkjh se
-                    sd sdusdoiu ysui soiu ysdoiuy dsiuidsuy iosdp sd
+                <p>
+                  <img src="https://www.whizsolutions.co.uk/wp-content/uploads/2018/02/Server-Side-Frameworks-2.png"/>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Molestias voluptates doloribus, laborum repellat ad quod veniam,
+                   in illum ex odio minus, repudiandae! Cupiditate veniam vitae illo sunt!
+                    Mollitia, est, eum.
                   </p>
                 </Tab.Pane>
                 
                 <Tab.Pane eventKey="fifth">
-                  <img src="https://i.morioh.com/990d21e6a2.png" />
+                  <img src="https://www.developintelligence.com/wp-content/uploads/2015/09/word-image-1.jpeg" />
                   <p>
-                    askhg ajhslkjhl a jashlak jaslkjh ah ajh kjahjh aj hkla
-                    dshflkhsak fsdlkjashdkjh kjs j ahskjh dsfjh lkj ksslkjh se
-                    sd sdusdoiu ysui soiu ysdoiuy dsiuidsuy iosdp sd
+                  Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Molestias voluptates doloribus, laborum repellat ad quod veniam,
+                   in illum ex odio minus, repudiandae! Cupiditate veniam vitae illo sunt!
+                    Mollitia, est, eum.
                   </p>
                 </Tab.Pane>
               </Tab.Content>
