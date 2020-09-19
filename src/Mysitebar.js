@@ -109,7 +109,7 @@ function Mysitebar() {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h" className={classes.title}>
+            <Typography variant="h3" className={classes.title}>
               MYSITEBAR
             </Typography>
             <Box mr={3}>
@@ -238,12 +238,13 @@ function Mysitebar() {
             </div>
           </Container>
         </div>
-        <div className={classes.cardGrid} maxWidth="md">
+        <div className={classes.cardGrid} maxwidth="md">
           <Grid container spacing={4}>
             {cards.map((card) => (
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardMedia
+                    style={{width:"400px", height:"200px"}}
                     className={classes.cardMedia}
                     image="https://source.unsplash.com/random"
                     title="Image title"

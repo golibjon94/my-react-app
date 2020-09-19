@@ -4,12 +4,11 @@ import aurora1Img from "../assets/aurora1.jpg";
 import aurora2Img from "../assets/aurora2.jpg";
 import aurora3Img from "../assets/aurora3.jpg";
 import aurora4Img from "../assets/aurora4.jpg";
-
 export default class CarouselBox extends Component {
   render() {
     return (
       <Carousel>
-        <Carousel.Item>
+        <Carousel.Item style={{'height':'900px'}}>
           <img className="d-block w-100" src={aurora1Img} alt="Aurora" />
           <Carousel.Caption>
             <h3>Aurora image</h3>
@@ -23,7 +22,7 @@ export default class CarouselBox extends Component {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item>
+        <Carousel.Item style={{'height':'900px'}}>>
           <img className="d-block w-100" src={aurora2Img} alt="Aurora" />
           <Carousel.Caption>
             <h3>Aurora image</h3>
@@ -35,7 +34,7 @@ export default class CarouselBox extends Component {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item>
+        <Carousel.Item style={{'height':'900px'}}>>
           <img className="d-block w-100" src={aurora3Img} alt="Aurora" />
           <Carousel.Caption>
             <h3>Aurora image</h3>
@@ -48,7 +47,7 @@ export default class CarouselBox extends Component {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item>
+        <Carousel.Item style={{'height':'900px'}}>>
           <img className="d-block w-100" src={aurora4Img} alt="Aurora" />
           <Carousel.Caption>
             <h3>Aurora image</h3>
@@ -61,7 +60,7 @@ export default class CarouselBox extends Component {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item>
+        <Carousel.Item style={{'height':'900px'}}>>
           <img className="d-block w-100" src={aurora1Img} alt="Aurora" />
           <Carousel.Caption>
             <h3>Aurora image</h3>
