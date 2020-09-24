@@ -9,12 +9,11 @@ import {
 } from "react-bootstrap";
 import logo from "./logo192.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import Products from "../Pages/Products";
 import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contacts from "../Pages/Contacts";
 import Blog from "../Pages/Blog";
-import Mysitebar from "../Mysitebar";
 import styled from "styled-components";
 
 const Styles = styled.div`
@@ -57,7 +56,8 @@ export default class Header extends Component {
                   <Nav.Link href="/about">About us</Nav.Link>
                   <Nav.Link href="/contacts">Contacts</Nav.Link>
                   <Nav.Link href="/blog">Blog</Nav.Link>
-                  <Nav.Link href="/mysitebar">Mysitebar</Nav.Link>
+                  <Nav.Link href="/products">Products</Nav.Link>
+                  
                 </Nav>
                 <Form inline>
                   <FormControl
@@ -76,7 +76,8 @@ export default class Header extends Component {
               <Route path="/about" component={About} />
               <Route path="/contacts" component={Contacts} />
               <Route path="/blog" component={Blog} />
-              <Route path="/mysitebar" component={Mysitebar} />
+              <Route path="/products" component={Products} />
+              
             </Switch>
           </Router>
         </Styles>

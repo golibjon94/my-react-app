@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//   import { Form } from 'react-bootstrap'
 import { Form, Button, Container } from "react-bootstrap";
 export default class Contacts extends Component {
   render() {
@@ -29,3 +28,4 @@ export default class Contacts extends Component {
     );
   }
 }
+

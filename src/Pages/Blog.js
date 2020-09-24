@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Media, Container, Col, Row, Card, ListGroup } from "react-bootstrap";
-
+import Js from '../assets/js.png'
 export default class Blog extends Component {
   render() {
     return (
@@ -12,7 +12,7 @@ export default class Blog extends Component {
               width={150}
               height={150}
               className="mr-3"
-              src="https://habrastorage.org/webt/9t/9l/vm/9t9lvmkomk56v41_-tso6mohnb0.png"
+              src={Js}
             />
             <Media.Body>
               <h5>Blog post</h5>
@@ -26,11 +26,11 @@ export default class Blog extends Component {
           </Media>
 
           <Media className="m-5">
-            <img
+          <img
               width={150}
               height={150}
               className="mr-3"
-              src="https://habrastorage.org/webt/9t/9l/vm/9t9lvmkomk56v41_-tso6mohnb0.png"
+              src={Js}
             />
             <Media.Body>
               <h5>Blog post</h5>
@@ -44,11 +44,11 @@ export default class Blog extends Component {
           </Media>
 
           <Media className="m-5">
-            <img
+          <img
               width={150}
               height={150}
               className="mr-3"
-              src="https://habrastorage.org/webt/9t/9l/vm/9t9lvmkomk56v41_-tso6mohnb0.png"
+              src={Js}
             />
             <Media.Body>
               <h5>Blog post</h5>
@@ -62,11 +62,11 @@ export default class Blog extends Component {
           </Media>
 
           <Media className="m-5">
-            <img
+          <img
               width={150}
               height={150}
               className="mr-3"
-              src="https://habrastorage.org/webt/9t/9l/vm/9t9lvmkomk56v41_-tso6mohnb0.png"
+              src={Js}
             />
             <Media.Body>
               <h5>Blog post</h5>
@@ -80,7 +80,7 @@ export default class Blog extends Component {
           </Media>
         </Col>
             <Col md="3">
-                  <h5 className="text-center mt-4">Categories</h5>
+                  <h5 className="text-center mt-5">Categories</h5>
                   <Card>
                         <ListGroup variant="flush">
                               <ListGroup.Item>HTML/CSS</ListGroup.Item>

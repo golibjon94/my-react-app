@@ -6,7 +6,7 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <CarouselBox />
+        <CarouselBox/>
         <Container>
           <h2 className="text-center m-4">Our team</h2>
           <CardDeck>
